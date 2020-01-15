@@ -1,0 +1,19 @@
+{
+  "dataset":{
+    "name":"celeba",
+    "img_path":"/home/yhzhang/workspace/dataset/celeba/all",
+    "train_file_path":"/home/yhzhang/workspace/dataset/celeba/ganset1.txt",
+    "test_file_path":"/home/yhzhang/workspace/dataset/celeba/faceset1000/new_train_list.txt",
+    "img_size":64,
+    "model_name":"inpainting",
+    "num_of_classes":1000
+  },
+  "inpainting":{
+    "batch_size":64,
+    "iterations":1500,
+    "masktype":"center",
+    "momentum":0.9,
+    "learning_rate":0.01
+  }
+}
+
